@@ -191,3 +191,23 @@ body {
     opacity: 0.9;
     font-size: 28px;
 }
+
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        gap: 10px;
+        margin-right: 0;
+    }
+
+    .nav-link {
+        font-size: 20px;
+    }
+
+    .logo {
+        margin-left: 10px;
+    }
+
+    .mission, .locations {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
